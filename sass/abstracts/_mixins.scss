@@ -50,7 +50,7 @@ ORDER : Base + typography > general layout + grid > page layout > components
 
     //1200px
     @if $breakpoint == tab-land {
-        @media (max-width: 75emem) {
+        @media (max-width: 75em) {
             @content;
         }
     }
